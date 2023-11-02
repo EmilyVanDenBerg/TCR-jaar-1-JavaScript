@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Opdracht 9.1</title>
+</head>
+<body>
+    <h1>Opdracht 9.1</h1>
+    <button id="cookieWallButton">Test hier de cookiewall.</button>
+    <p id="leeftijdResultaat"></p>
+    
+    <div id="cookieWall" class="modal">
+        <div class="cookiecontent">
+          <span class="close">&times;</span>
+          <p>Hoe oud bent u?</p><br>
+          <p>Uw leeftijd: <input type="number" id="leeftijd" value="0"></p>
+          <button onclick="leeftijdCheck()">Check of u oud genoeg bent</button>
+          
+        </div>
+    </div>
+      <script src="script.js"></script>
+</body>
+</html>
