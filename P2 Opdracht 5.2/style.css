@@ -1,0 +1,11 @@
+#colorScreen {
+    background-color: white;
+    width: 200px;
+    height: 200px
+}
+
+#goButton {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 30px;
+}
